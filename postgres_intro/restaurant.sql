@@ -12,11 +12,57 @@ CREATE TABLE restaurant (
 );
 
 INSERT INTO restaurant
-    (name_resto, distance, stars, category, favorite_dish, takeout, last_date)
-VALUES
-    ('Taco Bell', 5, 4, 'Mexican', 'Tacos', true, '1999-1-08'),
-    ('McDonalds', 2, 1, 'American', 'Burger', true, '2000-1-8'),
-    ('Chipotle', 0, 5, 'Mex', 'Burrito', false, '2015-4-9'),
-    ('Chick-Fil-A', 1, 5, 'Mex', 'Tacos', true, '2001-4-9');
+        (name_resto, distance, stars, category, favorite_dish, takeout, last_date)
+    VALUES
+        ('The Wild Tree', 4, 1, 'dim sum', 'Chicken Tikka Masala', false, '2019-01-26'),
+        ('The Dapper Violin', 4, 2, 'mexican', 'Cucumber Sandwiches', true, '2019-03-17'),
+        ('The Enigma Deer', 8, 1, 'mexican', 'Porridge', false, '2019-03-15'),
+        ('The Greek Oriental', 10, 4, 'bbq', 'Goulash', false, '2019-01-21'),
+        ('The Eastern Smith', 0, 3, 'wings', 'Chicken Noodle Soup', false, '2019-01-03'),
+        ('Shambles', 4, 4, 'american', 'Schnitzel', false, '2019-04-10'),
+        ('Whisperwind', 3, 1, 'american', 'Spaetzle', false, '2019-05-04'),
+        ('The Turban', 1, 5, 'sushi', 'Paella', true, '2019-05-18'),
+        ('Whammy', 9, 3, 'dim sum', 'Curry', true, '2019-02-25'),
+        ('The Nomad', 6, 4, 'sushi', 'Sweet & Sour Chicken (Cantonese Style)', true, '2019-03-27'),
+        ('The First Chef', 2, 2, 'dim sum', 'Steak', false, '2019-01-16'),
+        ('The Western Trumpet', 0, 5, 'mexican', 'Fried Egg', false, '2019-04-23'),
+        ('The Lunar Boar', 10, 1, 'sea food', 'Duck', true, '2019-05-17'),
+        ('The Vanilla Moments', 5, 3, 'sushi', 'Australian Meat Pie', false, '2019-03-30'),
+        ('The Kings Tiger', 0, 4, 'american', 'Gazpacho', true, '2019-05-18'),
+        ('Alpha', 2, 2, 'wings', 'Quesadilla', true, '2019-01-19'),
+        ('Carnival', 8, 5, 'sushi', 'Wrap', true, '2019-03-10'),
+        ('Chance', 3, 5, 'wings', 'Hollandaise Sauce', false, '2019-04-02'),
+        ('Citrus', 1, 1, 'sushi', 'Chili', false, '2019-05-11'),
+        ('Midnight', 9, 4, 'sandwiches', 'French Toast', false, '2019-01-26'),
+        ('The Caribbean Bay', 8, 5, 'dim sum', 'Spaghetti Bolognese', true, '2019-02-26'),
+        ('The Coriander Street', 0, 4, 'Indian', 'Ratatouille', false, '2019-01-16'),
+        ('The Pearl Clove', 4, 5, 'bbq', 'Bangers & Mash', true, '2019-02-08'),
+        ('The Jazz Pond', 10, 2, 'sandwiches', 'Chili', true, '2019-01-09'),
+        ('The Court Boar', 3, 4, 'mexican', 'Gyros', false, '2019-03-11'),
+        ('Splash', 8, 2, 'american', 'Scallops', false, '2019-03-31'),
+        ('The Cane', 7, 3, 'bbq', 'Chicken Noodle Soup', false, '2019-05-18'),
+        ('Lavender', 0, 2, 'pizza', 'Bratkartoffeln', true, '2019-05-22'),
+        ('Aroma', 2, 3, 'american', 'Souvlaki', true, '2019-05-14'),
+        ('Kings', 1, 1, 'pizza', 'Steak Pie', true, '2019-04-13'),
+        ('The Sumo Garden', 2, 2, 'wings', 'Roast Beef', false, '2019-02-26'),
+        ('The Amber Beehive', 5, 3, 'mexican', 'Tacos', true, '2019-02-07'),
+        ('The Fiery God', 6, 1, 'mexican', 'Baked Beans', true, '2019-03-17'),
+        ('The Gallery Exchange', 5, 4, 'american', 'Fried Egg', true, '2019-05-11'),
+        ('The Tandoori Cuisine', 8, 3, 'mexican', 'Aioli', false, '2019-02-21'),
+        ('Salutation', 6, 5, 'dim sum', 'Risotto', false, '2019-04-11'),
+        ('Blueprint', 0, 4, 'sandwiches', 'French Toast', true, '2019-05-11'),
+        ('The Maple', 9, 4, 'wings', 'Curry', true, '2019-03-28'),
+        ('Whammy', 9, 2, 'sushi', 'Gazpacho', false, '2019-04-03'),
+        ('The Pearl', 2, 1, 'Chinese', 'Quesadilla', false, '2019-05-02'),
+        ('The Waterway Goddess', 2, 4, 'Chinese', 'Mashed Potato', true, '2019-04-12'),
+        ('The Meadow Kitchen', 5, 5, 'thai', 'Macaroni Salad', true, '2019-02-04'),
+        ('The Nifty Road', 3, 5, 'bbq', 'Tacos', true, '2019-02-09'),
+        ('The Incredible Mockingbird', 2, 1, 'mexican', 'Baked Beans', true, '2019-02-06'),
+        ('The Sushi Window', 8, 1, 'sushi', 'Fried Egg', true, '2019-01-13'),
+        ('Salutation', 7, 3, 'bbq', 'Aioli', true, '2019-01-07'),
+        ('The Wall', 8, 2, 'thai', 'Risotto', true, '2019-04-24'),
+        ('Recess', 8, 2, 'thai', 'French Toast', true, '2019-04-07'),
+        ('Nova', 3, 2, 'dim sum', 'Curry', true, '2019-02-01'),
+        ('Little China', 6, 4, 'Indian', 'Gazpacho', true, '2019-01-04');
 
 SELECT * FROM restaurant;
