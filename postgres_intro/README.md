@@ -68,7 +68,7 @@ Write queries to get
 8. restaurants you haven't ate at in the last week
 9. restaurants you haven't ate at in the last week and has 5 stars
 
-* Solutions stored in query1.sql *
+**Solutions stored in query1.sql**
 
 ## Aggregation and Sorting Queries
 
@@ -81,4 +81,4 @@ Write queries to get
 7. get the average stars per restaurant by category.
 8. get the max stars of a restaurant by category.
 
-* Solutions stored in query2.sql *
+**Solutions stored in query2.sql**
